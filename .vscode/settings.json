@@ -1,0 +1,62 @@
+{"highlight-matching-tag.styles": {
+
+  "opening": {
+    "name": {
+      "underline": "yellow",
+      "highlight": "yellow"       
+    }
+  }
+},
+ "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/.vscode/**"
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "liveServer.settings.port": 5501
+}
+//   "editor.tokenColorCustomizations": {
+//     "textMateRules": [
+//       // colour of attributes
+//       {
+//         "scope": ["entity.other.attribute-name.html"],
+//         "settings": {
+//           "foreground": "#ee00ff"
+//         }
+//       },
+//       // colour of class names
+//       {
+//         "scope": ["string.quoted.double.html", "entity.other.attribute-name.class.css"],
+//         "settings": {
+//           "foreground": "#12e323"
+//         }
+//       },
+//       // colour of start quotes
+//       {
+//         "scope": ["punctuation.definition.string.begin.html"],
+//         "settings": {
+//           "foreground": "#ff0000"
+//         }
+//       },
+//       // colour of end quotes
+//       {
+//         "scope": ["punctuation.definition.string.end.html"],
+//         "settings": {
+//           "foreground": "#5e1414"
+//         }
+//       }
+//     ]
+//   },
+// }
