@@ -14,5 +14,8 @@ const createMarkupImg = galleryItems.map(
       alt="${description}"
     />
   </a>
-</div>`,
-);
+  </div>`)
+  .join('');
+  
+galleryImg.innerHTML = createMarkupImg;
+
