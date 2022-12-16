@@ -1,4 +1,10 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
-console.log(galleryItems);
+const galleryImgRef = document.querySelector('.gallery');
+const imgMarkup = createItemsMarkup(galleryItems);
+
+galleryImgRef.insertAdjacentHTML("beforeend", imgMarkup);
+
+
+
