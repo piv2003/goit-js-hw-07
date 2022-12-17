@@ -43,7 +43,8 @@ const onOpenModal = img => {
 const onKeyPress = evt => {
   if (evt.code !== 'Escape') {
     return;
-  }    
+  };  
+  // window.removeEventListener('keydown', onKeyPress, true);
   modalImg.close();
 };
 
